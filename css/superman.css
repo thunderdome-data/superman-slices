@@ -1,0 +1,35 @@
+#container { width: 600px; position: relative; }
+.slice { height: 400px; float: left; box-sizing: border-box; position: absolute; cursor: pointer; }
+#s0 { width: 43px; left: 155px; background: url('../img/super0.jpg') no-repeat -155px }
+#s1 { width: 43px; left: 198px; background: url('../img/super1.jpg') no-repeat -198px }
+#s2 { width: 43px; left: 241px; background: url('../img/super2.jpg') no-repeat -241px }
+#s3 { width: 43px; left: 284px; background: url('../img/super3.jpg') no-repeat -284px }
+#s4 { width: 43px; left: 327px; background: url('../img/super4.jpg') no-repeat -327px }
+#s5 { width: 43px; left: 370px; background: url('../img/super5.jpg') no-repeat -370px }
+#s6 { width: 43px; left: 413px; background: url('../img/super6.jpg') no-repeat -413px }
+
+#sliceCon { background-color: #333; width:600px; height:400px; }
+
+#close { position: absolute; top: 110; left: 0; width: 600px; height: 400px; z-index: 101; cursor: pointer; }
+#closebtn { width: 30px; height: 30px; padding: 3px; margin: 3px;  float: right;  cursor: pointer; background: url('../img/closebtn.png') no-repeat }
+
+#captions { position: relative; top: 0px; margin-top: 10px; display: block;   }
+.caption { font: 12px Arial; display: none; width: 600px; height: 300px; }
+
+.imgCon { width: 200px; height: 300px; background-color: #000; float: left; margin-right: 10px; }
+.name { font: bold 18px Arial; margin: 0 0 -7px 0; }
+.summary { font: 14px Arial; color: #333;}
+.summary a { text-decoration: none; color: #7EBEE4;}
+
+#tooltip { position: absolute; padding: 7px; border: 2px solid #FFF; background-color: #000; background-color: rgba(0,0,0,.66); color: #FFF; z-index: 110; width: 150px; border-radius: 8px; font: bold 12px Arial; text-align: center }
+
+.credits { font: italic 11px Arial; color: #999; }
+
+#sourceCreds {
+  font: italic 11px Arial; 
+  color: #999; 
+  margin: 10px 0 10px 0px; 
+  padding: 5px 0 0 0;
+  display: block;
+  border-top: 1px dotted #CCC;
+}
